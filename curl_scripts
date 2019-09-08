@@ -1,0 +1,9 @@
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "password": "admin"}' http://localhost:8000/api/token/
+
+
+curl -X GET -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTY4NDAxMzg3LCJqdGkiOiIzMDU4YmM1NzhmZGQ0YzI3YjljNmQxMjczOGNlOTMxMyIsInVzZXJfaWQiOjF9.4dNAVOVB13fRqlZprvGDNL02W-3qRFzmlD8-K1nhGKc" http://127.0.0.1:8000/banks/?ifsc=ABHY0065001&limit=2
+
+
+curl -X GET -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTY4NDAxMzg3LCJqdGkiOiIzMDU4YmM1NzhmZGQ0YzI3YjljNmQxMjczOGNlOTMxMyIsInVzZXJfaWQiOjF9.4dNAVOVB13fRqlZprvGDNL02W-3qRFzmlD8-K1nhGKc" http://127.0.0.1:8000/branches/?bank=STATE%20BANK%20OF%20INDIA&city=BUXAR&limit=5&offset=10
+
+
